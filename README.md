@@ -81,3 +81,21 @@ Es una biblioteca de Python diseñada por Google para computación numérica de 
 | **Ecosistema ML**          | Más reducido                                        | Muy amplio                 | Muy amplio                    |
 | **Producción**             | Posible, menos estándar                             | Común                      | Muy común                     |
 | **Serialización / export** | Limitada                                            | Buena                      | Muy buena                     |
+
+---
+
+## **Ejemplo práctico**
+[Google Colab – Ejemplo práctico](https://colab.research.google.com/drive/1mxeUKAeZHpbvIypMwdKl_zqBGGoSvALL?usp=sharing)
+
+---
+
+## **Fuentes**
+https://eiposgrados.com/blog-python/jax-machine-learning/
+
+https://es.eitca.org/artificial-intelligence/eitc-ai-gcml-google-cloud-machine-learning/google-cloud-ai-platform/introduction-to-jax/examination-review-introduction-to-jax/what-is-jax-and-how-does-it-speed-up-machine-learning-tasks/
+
+https://docs.jax.dev/en/latest/
+
+https://pytorch.org/docs/stable/index.html
+
+https://www.tensorflow.org/guide
