@@ -85,7 +85,7 @@ Es una biblioteca de Python diseñada por Google para computación numérica de 
 ---
 
 ## **Ejemplo práctico**
-[Google Colab – Ejemplo práctico](https://colab.research.google.com/drive/1mxeUKAeZHpbvIypMwdKl_zqBGGoSvALL?usp=sharing)
+[Google Colab – Ejemplo práctico de MNIST con Jax, Tensorflow y Pytorch](https://colab.research.google.com/drive/1mxeUKAeZHpbvIypMwdKl_zqBGGoSvALL?usp=sharing)
 
 ---
 
