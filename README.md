@@ -61,3 +61,23 @@ Es una biblioteca de Python diseñada por Google para computación numérica de 
 ### Otras herramientas
 * Orbax
 * Chex
+
+---
+
+## **Comparación de JAX con TensorFlow y PyTorch.**
+
+| Aspecto                    | **JAX**                                             | **PyTorch**                | **TensorFlow**                |
+| -------------------------- | --------------------------------------------------- | -------------------------- | ----------------------------- |
+| **Modelo de ejecución**    | Funcional, basado en *tracing*                      | Imperativo (eager)         | Grafo + eager                 |
+| **Definición del modelo**  | Funciones puras                                     | Clases (`nn.Module`)       | Clases (`tf.keras.Model`)     |
+| **Autodiferenciación**     | Transformaciones de programa (`grad`, `vjp`, `jvp`) | Tape dinámico              | Tape dinámico                 |
+| **Compilación**            | XLA por defecto (`jit`)                             | Opcional (`torch.compile`) | Opcional (XLA)                |
+| **Mutabilidad**            | No mutable                                          | Mutable                    | Mutable                       |
+| **Vectorización**          | Explícita (`vmap`)                                  | Implícita / manual         | Implícita                     |
+| **Paralelismo**            | SPMD nativo (`pjit`)                                | DDP / FSDP                 | Estrategias (`tf.distribute`) |
+| **TPU**                    | Soporte nativo                                      | Soporte parcial            | Soporte nativo                |
+| **Debugging**              | Limitado bajo `jit`                                 | Directo                    | Intermedio                    |
+| **Flexibilidad dinámica**  | Media                                               | Muy alta                   | Media                         |
+| **Ecosistema ML**          | Más reducido                                        | Muy amplio                 | Muy amplio                    |
+| **Producción**             | Posible, menos estándar                             | Común                      | Muy común                     |
+| **Serialización / export** | Limitada                                            | Buena                      | Muy buena                     |
